@@ -144,7 +144,7 @@ def add_item(args,
         '&playhead='   + urllib.quote_plus(info['playhead'])     +\
         '&duration='   + urllib.quote_plus(info['duration'])     +\
         '&episode='   + urllib.quote_plus(info['episode'])     +\
-        '&plot='       + urllib.quote_plus(info['plot'])          +'%20'
+        '&plot='       + 'Testing...'          +'%20'
 
     # Create list item
     li = xbmcgui.ListItem(label          = info['title'],
